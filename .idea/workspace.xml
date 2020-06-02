@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be946915-6e04-493a-a9bf-7cd44394fea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Extensions/DataBase/DbActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Extensions/Mobile/UiActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Extensions/Verivications/Verifications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Extensions/Web/UiActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/CommonOps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/DataGenerators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/HelperMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/ManageDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/ManagePages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/MobileFlows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FunctionalityTests/MobileFunctionality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FunctionalityTests/WebFunctionality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IntegrationTests/WebMobileIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SanityTests/MobileSanity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SanityTests/WebSanity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
