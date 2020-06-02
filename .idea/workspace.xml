@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be946915-6e04-493a-a9bf-7cd44394fea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FunctionalityTests/MobileFunctionality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FunctionalityTests/WebFunctionality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IntegrationTests/WebMobileIntegration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SanityTests/MobileSanity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SanityTests/WebSanity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Configurations/Config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
