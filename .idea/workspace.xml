@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be946915-6e04-493a-a9bf-7cd44394fea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Configurations/Config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecuteIntegrated.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecuteMobileFunctionality.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecuteMobileSanity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecuteWebFunctionality.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecuteWebSanity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +38,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\Basecamp_Web_and_Mobile_Automation" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
