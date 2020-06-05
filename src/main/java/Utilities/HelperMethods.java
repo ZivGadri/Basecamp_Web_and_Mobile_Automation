@@ -54,6 +54,25 @@ public class HelperMethods extends CommonOps {
         return randomFullName;
     }
 
+    public static String randomEmailGenerator() {
+        String randomEmail = returnRandomName() + returnRandomDate() + "@" +
+                DataGenerators.emailProviders[ThreadLocalRandom.current().nextInt
+                        (0, DataGenerators.emailProviders.length - 1)] + ".com";
+        _userEmail = randomEmail;
+        return randomEmail;
+    }
+
+    public static String returnRandomPassword() {
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < 10; i++) {
+            int randomNum = ThreadLocalRandom.current().nextInt(0, DataGenerators.numbersAndSymbols.length-1);
+            sb.append(DataGenerators.numbersAndSymbols[randomNum]);
+        }
+        String fullPassword = sb.toString();
+        _password = fullPassword;
+        return fullPassword;
+    }
+
 }
 
 
