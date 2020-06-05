@@ -26,6 +26,10 @@ public class Base {
     public static WebDriverWait wait;
     public static Actions action;
     public static SimpleDateFormat dateFormat;
+    public static int _numberOfProjectsBeforeAddingOrRemoving;
+    public static String _projectName;
+    public static String _projectDescription;
+    public static String avatarCurrentImageFilePath;
 
     //Parameters Variables
     public static String platform;
