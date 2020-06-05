@@ -73,6 +73,23 @@ public class HelperMethods extends CommonOps {
         return fullPassword;
     }
 
+    public static String returnRandomCompanyName() {
+        String[] _companyNames = DataGenerators.companyNames.split(",");
+        int randomNum = ThreadLocalRandom.current().nextInt(0, _companyNames.length - 1);
+        _companyName = _companyNames[randomNum];
+        return _companyNames[randomNum];
+    }
+
+    public static String returnRandomThreeDigitNumber() {
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < 3; i++) {
+            int randomNum = ThreadLocalRandom.current().nextInt(0, 9);
+            sb.append(DataGenerators.numbersAndSymbols[randomNum]);
+        }
+        String threeDigitNumber = sb.toString();
+        return threeDigitNumber;
+    }
+
 }
 
 
