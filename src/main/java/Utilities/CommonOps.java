@@ -1,8 +1,10 @@
 package Utilities;              //A class that provide with all the routine operations and methods being used with every test run, mainly for initializing drivers and browsers,
-                                // main logical TestNG annotations (Before / After class / Test), reading execution xml file parameters and initializing them. etc.
-                                // Inherits from Base class
+// main logical TestNG annotations (Before / After class / Test), reading execution xml file parameters and initializing them. etc.
+// Inherits from Base class
 
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -13,10 +15,10 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
@@ -71,7 +73,7 @@ public class CommonOps extends Base {
 
     @BeforeClass
     @Parameters({"platformName", "siteTested", "browserName"})
-    public void startSession(String platformName, String siteTested, String browserName) throws IOException {
+    public void startSession(String platformName, String siteTested, String browserName) {
         platform = platformName;
         webSite = siteTested;
         browser = browserName;
@@ -81,8 +83,28 @@ public class CommonOps extends Base {
         } else if (platform.equalsIgnoreCase("mobile")) {
             initMobile();
             ManagePages.initMobile();
-        } else
+        } else if (platform.equalsIgnoreCase("integrate")) {
+            initBrowser();
+            initMobile();
+            ManagePages.initWeb();
+            ManagePages.initMobile();
+        } else {
             throw new RuntimeException("Given Platform Is Invalid.");
+        }
+
         ManageDB.initConnection(getDataFromXML("DBURL"), getDataFromXML("DBuser"), getDataFromXML("DBpassword"));
+    }
+
+    @AfterClass
+    public void closeSession() {
+        ManageDB.closeConnection();
+        if (platform.equalsIgnoreCase("web")) {
+            driver.quit();
+        } else if (platform.equalsIgnoreCase("mobile")) {
+            androidDriver.pressKey(new KeyEvent(AndroidKey.HOME));
+        } else {
+            driver.quit();
+            androidDriver.pressKey(new KeyEvent(AndroidKey.HOME));
+        }
     }
 }
