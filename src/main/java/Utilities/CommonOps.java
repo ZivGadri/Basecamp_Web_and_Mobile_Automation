@@ -83,5 +83,6 @@ public class CommonOps extends Base {
             ManagePages.initMobile();
         } else
             throw new RuntimeException("Given Platform Is Invalid.");
+        ManageDB.initConnection(getDataFromXML("DBURL"), getDataFromXML("DBuser"), getDataFromXML("DBpassword"));
     }
 }
