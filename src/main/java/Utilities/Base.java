@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.text.SimpleDateFormat;
 
 public class Base {
 
@@ -24,6 +25,7 @@ public class Base {
     public static JavascriptExecutor js = (JavascriptExecutor) driver;
     public static WebDriverWait wait;
     public static Actions action;
+    public static SimpleDateFormat dateFormat;
 
     //Parameters Variables
     public static String platform;

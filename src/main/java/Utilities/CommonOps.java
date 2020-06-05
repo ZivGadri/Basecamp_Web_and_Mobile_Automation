@@ -1,4 +1,4 @@
 package Utilities;
 
-public class CommonOps {
+public class CommonOps extends Base {
 }
