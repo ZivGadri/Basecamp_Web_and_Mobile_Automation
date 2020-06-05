@@ -48,6 +48,11 @@ public class HelperMethods extends CommonOps {
         return _names[randomNum];
     }
 
+    public static String returnRandomFullName() {
+        String randomFullName = returnRandomName() + " " + returnRandomName();
+        _userName = randomFullName;
+        return randomFullName;
+    }
 
 }
 
