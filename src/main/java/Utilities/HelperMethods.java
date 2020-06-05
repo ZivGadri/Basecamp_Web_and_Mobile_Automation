@@ -90,6 +90,16 @@ public class HelperMethods extends CommonOps {
         return threeDigitNumber;
     }
 
+    //BASECAMP WEB HELPER METHODS
+
+    public static boolean assertForHomePage() {
+        boolean isHomePage = true;
+        if (driver.getCurrentUrl().equals("https://basecamp.com/")) {
+            isHomePage = false;
+        }
+        return isHomePage;
+    }
+
 }
 
 
