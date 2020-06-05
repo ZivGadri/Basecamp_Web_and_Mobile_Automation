@@ -1,6 +1,6 @@
 package Utilities;              //A class that provide with all the routine operations and methods being used with every test run, mainly for initializing drivers and browsers,
-// main logical TestNG annotations (Before / After class / Test), reading execution xml file parameters and initializing them. etc.
-// Inherits from Base class
+                                // main logical TestNG annotations (Before / After class / Test), reading execution xml file parameters and initializing them. etc.
+                                // Inherits from Base class
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
