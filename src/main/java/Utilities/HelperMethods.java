@@ -9,6 +9,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class HelperMethods extends CommonOps {
 
@@ -41,7 +42,11 @@ public class HelperMethods extends CommonOps {
         return newDateFormat;
     }
 
-    
+    public static String returnRandomName() {
+        String[] _names = DataGenerators.names.split(" ");
+        int randomNum = ThreadLocalRandom.current().nextInt(0, _names.length - 1);
+        return _names[randomNum];
+    }
 
 
 }
