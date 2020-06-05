@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be946915-6e04-493a-a9bf-7cd44394fea1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Extensions/Verivications/Verifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extensions/Verivications/Verifications.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/AvatarMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/AvatarMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/EditProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/EditProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/EditProjectDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/EditProjectDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/GetHelpIframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/GetHelpIframe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/IntroPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/IntroPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/NewProjectFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/NewProjectFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/ProjectMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/ProjectMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/RemoveAProjectFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/RemoveAProjectFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/SignUpFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/SignUpFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/UpperMenuBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/UpperMenuBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Web/UpperMenuFindWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Web/UpperMenuFindWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Mobile/BottomMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Mobile/BottomMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Mobile/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Mobile/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Mobile/MyStuffPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Mobile/MyStuffPage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
