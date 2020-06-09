@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be946915-6e04-493a-a9bf-7cd44394fea1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/WebSanity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/WebSanity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extensions/Web/UiActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extensions/Web/UiActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/CommonOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/CommonOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/HelperMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Extensions/DataBase/DbActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Extensions/DataBase/DbActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Extensions/Mobile/UiActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Extensions/Mobile/UiActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Mobile/BottomMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Mobile/BottomMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Mobile/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Mobile/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Mobile/MyStuffPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Mobile/MyStuffPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/AvatarMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/AvatarMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/EditProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/EditProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/EditProjectDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/EditProjectDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/GetHelpIframe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/GetHelpIframe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/IntroPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/IntroPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/NewProjectFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/NewProjectFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/ProjectMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/ProjectMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/RemoveAProjectFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/RemoveAProjectFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/SignInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/SignUpFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/SignUpFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/UpperMenuBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/UpperMenuBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Web/UpperMenuFindWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Web/UpperMenuFindWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/CommonOps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/CommonOps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/HelperMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/HelperMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Listeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/ManageDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/ManageDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WorkFlows/MobileFlows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkFlows/MobileFlows.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +66,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

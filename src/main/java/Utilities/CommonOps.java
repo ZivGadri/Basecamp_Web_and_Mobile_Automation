@@ -35,9 +35,9 @@ public class CommonOps extends Base {
             throw new RuntimeException("Invalid Browser Name Selected.");
         }
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Long.parseLong(getDataFromXML("TimeOut")), TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Long.parseLong(getDataFromXML("Timeout")), TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-        wait = new WebDriverWait(driver, Long.parseLong(getDataFromXML("TimeOut")));
+        wait = new WebDriverWait(driver, Long.parseLong(getDataFromXML("Timeout")));
         action = new Actions(driver);
     }
 
