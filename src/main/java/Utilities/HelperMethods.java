@@ -104,6 +104,11 @@ public class HelperMethods extends CommonOps {
         return isHomePage;
     }
 
+    public static int numberOfProjectsNow() {
+        _numberOfProjectsBeforeAddingOrRemoving = basecampMainPage.projects_list.size();
+        return _numberOfProjectsBeforeAddingOrRemoving;
+    }
+
     //APPIUM
     public static void captureScreenshotMobile() throws IOException {
         String folderName = "Reports/Screenshots";
