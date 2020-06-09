@@ -17,4 +17,29 @@ public class DbActions extends CommonOps {
             System.out.println("Error while posting data");
         }
     }
+
+    @Step("Post Basecamp new project info to Basecamp Projects Table")
+    public static void postProjectInfo() {
+        try {
+            statement = connection.createStatement();
+            String dbop = "INSERT INTO `Basecamp_Projects`(`projectName`, `projectDescription`) VALUES ('"
+                    + _projectName + "','" + _projectDescription + "');";
+            statement.execute(dbop);
+            statement.close();
+        } catch (Exception e) {
+            System.out.println("Error while posting data");
+        }
+    }
+
+    @Step("Post Basecamp new project info to Basecamp Projects Table")
+    public static void deleteProjectInfo() {
+        try {
+            statement = connection.createStatement();
+            String dbop = "DELETE FROM `Basecamp_Projects` WHERE projectName = '" + _projectName + "';";
+            statement.execute(dbop);
+            statement.close();
+        } catch (Exception e) {
+            System.out.println("Error while posting data");
+        }
+    }
 }
