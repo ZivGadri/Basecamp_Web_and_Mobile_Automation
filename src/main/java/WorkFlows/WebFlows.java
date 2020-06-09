@@ -6,6 +6,7 @@ import Extensions.Web.UiActions;
 import Utilities.CommonOps;
 import Utilities.HelperMethods;
 import io.qameta.allure.Step;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static Utilities.HelperMethods.getDataFromXML;
 
@@ -86,6 +87,28 @@ public class WebFlows extends CommonOps {
             Thread.sleep(2000);
             UiActions.click(basecampUpperMenu.home_btn);
             Thread.sleep(2000);
+        }
+    }
+
+    @Step("Remove first project")
+    public static void removeAProject() {
+        if (basecampUpperMenu.listOfUpperMenuItems.size() == 6) {
+            UiActions.click(basecampUpperMenu.home_btn);
+        } else {
+            driver.get("https://basecamp.com/");
+            signIn(getDataFromXML("UserEmail"), getDataFromXML("Password"));
+        }
+        _numberOfProjectsBeforeAddingOrRemoving = HelperMethods.numberOfProjectsNow();
+        if (_numberOfProjectsBeforeAddingOrRemoving == 0) {
+            System.out.println("No Projects To Delete");
+        } else {
+            UiActions.click(basecampMainPage.projects_list.get(0));
+            _projectName = basecampProjectMainPage.projectName_txt.getText();
+            UiActions.click(basecampProjectMainPage.optionsMenu_btn);
+            UiActions.click(basecampRemoveAProjectFlow.menuDeleteThisProject_btn);
+            UiActions.click(basecampRemoveAProjectFlow.redDeleteThisProject_btn);
+            DbActions.deleteProjectInfo();
+            wait.until(ExpectedConditions.visibilityOf(basecampMainPage.addAnotherProject_btn));
         }
     }
 }
