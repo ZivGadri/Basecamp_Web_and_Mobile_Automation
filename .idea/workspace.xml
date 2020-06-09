@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be946915-6e04-493a-a9bf-7cd44394fea1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/HelperMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/WebSanity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/WebSanity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +54,42 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/git/Basecamp_Web_and_Mobile_Automation/ExecuteWebSanity.xml">
+    <configuration name="C:/git/Basecamp_Web_and_Mobile_Automation/ExecuteWebSanity.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Basecamp_Web_and_Mobile_Automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ExecuteWebSanity.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebSanity.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Basecamp_Web_and_Mobile_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.WebSanity" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/git/Basecamp_Web_and_Mobile_Automation/ExecuteWebSanity.xml" />
+        <item itemvalue="TestNG.WebSanity.testLogin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
