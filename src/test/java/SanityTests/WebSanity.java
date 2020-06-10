@@ -23,7 +23,7 @@ public class WebSanity extends CommonOps {
     @Description("Test description: Signing up a new user")
     public void testSignup() throws InterruptedException {
         WebFlows.signUp(returnRandomFullName(), randomEmailGenerator(), returnRandomPassword(), returnRandomCompanyName());
-        Verifications.verifyTextInElement(basecampSignUpFlow.userNameTitle_txt, WebFlows._userName);
+        Verifications.verifyTextInElement(basecampSignUpFlow.userNameTitle_txt, WebFlows._companyName);
     }
 
 }

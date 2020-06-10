@@ -11,7 +11,7 @@ public class MainPage {
     @FindBy(how = How.XPATH, using = "//header/h1")
     public WebElement pageTitle_txt;
 
-    @FindBy(how = How.XPATH, using = "*//a[@href='/4392455/']")
+    @FindBy(how = How.XPATH, using = "//*[@id=\"my_navigation\"]/ul[2]/li[1]/a")
     public WebElement homePage_btn;
 
     @FindBy(how = How.CLASS_NAME, using = "card__add-project")
