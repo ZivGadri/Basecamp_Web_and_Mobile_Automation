@@ -17,6 +17,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.net.URL;
@@ -73,7 +74,7 @@ public class CommonOps extends Base {
 
     @BeforeClass
     @Parameters({"platformName", "siteTested", "browserName"})
-    public void startSession(String platformName, String siteTested, String browserName) {
+    public void startSession(String platformName, String siteTested, @Optional("noBrowserForMobile") String browserName) {
         platform = platformName;
         webSite = siteTested;
         browser = browserName;

@@ -3,30 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be946915-6e04-493a-a9bf-7cd44394fea1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/16aaff4a-aaff-4b03-be12-b132c891fd4e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1784bf9c-252b-4ab3-8e8c-2c4f3e2b3e2c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/17a2a4c9-202e-4d29-b51a-7dfcebb80c91-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2d9a5172-1af0-4eb2-9f97-547b103354c5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/39de46bd-c2fb-4ba2-9c27-1481811b81d0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3feb4b58-507a-4008-a83c-0d4a3a20f268-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/454d6a09-6b4e-4231-bad1-1c7d6ef65f27-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/51304d37-0e60-4759-831c-716152d0d969-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/676670bd-f2b3-428d-91ff-fe0dcc36a38d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7260426d-af78-42a7-9c44-9e6f15aaa4ab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/87618bf4-8bba-4d1a-8863-17745764d43b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9bbf55bb-73c2-40f6-89f7-5236073a4f6f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a1b916f8-0b18-472f-8e1c-379f2427cd56-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/aa8011b1-4a04-40bb-8a40-fb09525f6bec-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/aecdf580-7774-4fa5-ae71-c751c84e82ce-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/af346142-b630-42f6-88c8-5733bc97127e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bc91671e-ce6c-4243-82ea-be03e41f365d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d6db66e5-c0d9-4c10-9729-29f8ffbe2ae5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e254abd8-dd54-4ca2-aa79-585eeb629bc4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f92df1b8-ab40-47f4-9d03-ba4213c7241a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fc6ab49e-5d5d-436f-a74a-12fe7e89f88c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Extensions/Mobile/UiActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extensions/Mobile/UiActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WorkFlows/MobileFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/MobileFlows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/MobileSanity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/MobileSanity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/CommonOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/CommonOps.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,11 +57,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/git/Basecamp_Web_and_Mobile_Automation/ExecuteWebSanity.xml">
+  <component name="RunManager" selected="TestNG.C:/git/Basecamp_Web_and_Mobile_Automation/ExecuteMobileSanity.xml">
+    <configuration name="C:/git/Basecamp_Web_and_Mobile_Automation/ExecuteMobileSanity.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Basecamp_Web_and_Mobile_Automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ExecuteMobileSanity.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/git/Basecamp_Web_and_Mobile_Automation/ExecuteWebSanity.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Basecamp_Web_and_Mobile_Automation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/ExecuteWebSanity.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobileSanity.testLoginMobile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Basecamp_Web_and_Mobile_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.MobileSanity" />
+      <option name="METHOD_NAME" value="testLoginMobile" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,6 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/git/Basecamp_Web_and_Mobile_Automation/ExecuteMobileSanity.xml" />
+        <item itemvalue="TestNG.MobileSanity.testLoginMobile" />
         <item itemvalue="TestNG.C:/git/Basecamp_Web_and_Mobile_Automation/ExecuteWebSanity.xml" />
         <item itemvalue="TestNG.WebSanity.testSignup" />
         <item itemvalue="TestNG.WebSanity.testLogin" />
@@ -162,9 +169,19 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/CommonOps.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
-        <watch expression="basecampMainPage.homePage_btn" language="JAVA" />
+        <watch expression="androidDriver" language="JAVA" />
+        <watch expression="loginToBasecamp_btn" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
